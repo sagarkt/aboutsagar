@@ -39,7 +39,7 @@
     font-size: 16px;
     text-transform: uppercase;
     color: $dark;
-    font-weight: 700;
+    font-weight: 500;
     &::after {
       content: "";
       position: absolute;
@@ -52,6 +52,31 @@
       border-radius: 100%;
       background-color: $body-color;
     }
+  }
+  .sidebar-links {
+    font-family: 'PT Serif', serif;
+    margin: 0 0 10px;
+    position: relative;
+    padding-bottom: 15px;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: $dark;
+    font-weight: 300;
+    &::after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: 0;
+      display: block;
+      width: 7px;
+      height: 7px;
+      border-radius: 100%;
+      background-color: $body-color;
+    }
+  }
+  a {
+    text-decoration: none;
   }
   p {
     font-size: 16px;

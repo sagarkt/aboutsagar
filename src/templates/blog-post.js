@@ -3,7 +3,7 @@ import { Link, graphql } from 'gatsby'
 import { kebabCase } from 'lodash';
 import Img from 'gatsby-image'
 
-import DefaultLayout from '../components/layout'
+import LayoutForPosts from '../components/layout_for_posts'
 import SEO from '../components/seo'
 
 class BlogPostTemplate extends React.Component {
@@ -12,7 +12,7 @@ class BlogPostTemplate extends React.Component {
     const { previous, next } = this.props.pageContext
 
     return (
-      <DefaultLayout>
+      <LayoutForPosts>
         <SEO title={post.frontmatter.title} description={post.excerpt} />
         <article className="article-page">
           <div className="page-content">
@@ -48,7 +48,7 @@ class BlogPostTemplate extends React.Component {
             </div>
           </div>
         </article>
-      </DefaultLayout>
+      </LayoutForPosts>
     )
   }
 }

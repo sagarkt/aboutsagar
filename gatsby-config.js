@@ -1,15 +1,15 @@
 module.exports = {
   siteMetadata: {
-    title: `Flexible Gatsby`,
-    description: `I am a web developer focusing on front-end development. Always hungry to keep learning.`,
-    author: `David Freeman`,
-    siteUrl: `https://github.com/wangonya/flexible-gatsby`,
+    title: `Sagar Kamble`,
+    description: `I am a Full Stack Enginner. Always hungry to keep learning.`,
+    author: `Sagar Kamble`,
+    siteUrl: `https://www.aboutsagar.com`,
     social: {
-      twitter: `wang0nya`,
+      twitter: `kamblesagar001`,
       facebook: ``,
-      github: `wangonya`,
-      linkedin: `wangonya`,
-      email: `kwangonya@gmail.com`,
+      github: `sagarkt`,
+      linkedin: `sagarkamble`,
+      email: `sagar@aboutsagar.com`,
     },
   },
   plugins: [
@@ -59,7 +59,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `./static/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `./static/images/beard_man.jpg`, // This path is relative to the root of the site.
       },
     },
     // `gatsby-plugin-offline`,
